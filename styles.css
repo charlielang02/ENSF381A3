@@ -1,0 +1,210 @@
+header {
+  background-color: #004080;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav {
+  background-color: #003366;
+  padding: 10px;
+  color: white;
+}
+
+.nav p {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.nav a {
+  color: white;
+  flex: 1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 0;
+}
+
+#about {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: calc(100% - 40px);
+}
+
+.about-label {
+  color: #004080;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.login-form-group {
+  width: 100%;
+  border-radius: 30px;
+  padding: 30px;
+  padding-bottom: 40px;
+  background-color: lightgray;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+input {
+  background-color: lightyellow;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid darkgray;
+}
+
+.login-button {
+  background-color: #008000;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+
+.login-button:hover {
+  background-color: #006600;
+}
+
+.forgot-password {
+  color: #004080;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+select {
+  background-color: lightyellow;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.select-term {
+  text-align: center;
+}
+
+.tile {
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.accept-button {
+  background-color: green;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+
+.accept-button:hover {
+  background-color: darkgreen;
+}
+
+.decline-button {
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+
+.decline-button:hover {
+  background-color: darkred;
+}
+
+.banner {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.quiz-info {
+  background-color: lightblue;
+  padding: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+.question {
+  display: inline;
+  text-align: center;
+}
+
+.answer-box {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: left;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.finish-button {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+
+.submit-button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.profile-pic {
+  border: black 2px solid;
+  border-radius: 100%;
+}

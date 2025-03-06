@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login - LMS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpg" alt="LMS Logo" width="100" />
+      <h1>LMS - Learning Management System</h1>
+    </header>
+
+    <div class="nav">
+      <p>
+        <a href="index.html">Homepage</a>
+      </p>
+    </div>
+
+    <main class="login">
+      <h2 class="about-label">LMS Login</h2>
+      <form class="login-form">
+        <div class="login-form-group">
+          <label for="username">Username:</label><br /><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          /><br /><br />
+
+          <label for="password">Password:</label><br /><br />
+          <input type="password" id="password" name="password" required />
+        </div>
+        <br /><br />
+        <button class="login-button" onClick="location.href='course_view.html'">
+          Login</button
+        ><br />
+        <p><a class="forgot-password" href="#">Forgot Password?</a></p>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 LMS. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

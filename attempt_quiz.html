@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attempt Quiz - LMS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpg" alt="LMS Logo" width="100" />
+      <h1>LMS - Learning Management System</h1>
+    </header>
+    <div class="nav">
+      <p>
+        <a href="index.html">Homepage</a>
+        <a href="course_view.html">Courses</a>
+      </p>
+    </div>
+    <main class="login-quiz">
+      <img class="banner" src="banner.jpg" alt="Quiz Banner" />
+      <div class="quiz-info">
+        <h1 class="about-label">Course Name: Web Development</h1>
+        <h1 class="about-label">Course Code: WD381</h1>
+        <div>
+          <p>Topic: HTML Basics</p>
+          <p>Deadline: 11:59 PM, February 10, 2025</p>
+          <p>Attempts Allowed: 1</p>
+        </div>
+      </div>
+
+      <div class="question">
+        <h2>Question 1</h2>
+        <p>What does HTML stand for?</p>
+        <form>
+          <div class="answer-box">
+            <input type="radio" id="option1" name="q1" />
+            <label for="option1">Hyper Text Markup Language</label><br />
+
+            <input type="radio" id="option2" name="q1" />
+            <label for="option2">Home Tool Markup Language</label><br />
+          </div>
+          <br />
+          <button class="submit-button" type="button">Submit Answer</button>
+        </form>
+      </div>
+
+      <div class="question">
+        <h2>Question 2</h2>
+        <p>Which of the following are HTML elements?</p>
+        <form>
+          <div class="answer-box">
+            <input type="checkbox" id="java" />
+            <label for="java">&lt;div&gt;</label><br />
+
+            <input type="checkbox" id="html" />
+            <label for="html">&lt;span&gt;</label><br />
+          </div>
+          <br />
+          <button class="submit-button" type="button">Submit Answer</button>
+        </form>
+      </div>
+      <br />
+      <div class="finish-button">
+        <button
+          class="decline-button"
+          type="button"
+          onclick="location.href='leaderboard.html'"
+        >
+          Finish Quiz
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 LMS. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
