@@ -3,6 +3,7 @@
   <head>
     <title>Attempt Quiz - LMS</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="attempt_quiz.js"></script>
   </head>
   <body>
     <header>
@@ -48,11 +49,11 @@
         <p>Which of the following are HTML elements?</p>
         <form>
           <div class="answer-box">
-            <input type="checkbox" id="java" />
-            <label for="java">&lt;div&gt;</label><br />
+            <input type="checkbox" id="div" />
+            <label for="div">&lt;div&gt;</label><br />
 
-            <input type="checkbox" id="html" />
-            <label for="html">&lt;span&gt;</label><br />
+            <input type="checkbox" id="span" />
+            <label for="span">&lt;span&gt;</label><br />
           </div>
           <br />
           <button class="submit-button" type="button">Submit Answer</button>
@@ -60,14 +61,9 @@
       </div>
       <br />
       <div class="finish-button">
-        <button
-          class="decline-button"
-          type="button"
-          onclick="location.href='leaderboard.html'"
-        >
-          Finish Quiz
-        </button>
+        <button class="decline-button" type="button">Finish Quiz</button>
       </div>
+      <h2 id="final-score"></h2>
     </main>
 
     <footer>

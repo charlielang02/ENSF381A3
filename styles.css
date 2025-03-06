@@ -229,3 +229,12 @@ select {
   border: black 2px solid;
   border-radius: 100%;
 }
+
+.final-score {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.redirect-message {
+  text-align: center;
+}
