@@ -123,13 +123,34 @@ select {
   text-align: center;
 }
 
+.tile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: flex-start;
+}
+
 .tile {
-  background-color: lightblue;
+  flex-grow: 1;
+  flex-basis: calc(33.333% - 2px);
+  max-width: calc(33.333% - 2px);
+  box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px;
-  padding: 20px;
+  background-color: lightblue;
   text-align: center;
+  padding: 20px;
+}
+
+.tile-grid .tile:nth-child(1):nth-last-child(1) { 
+  flex-basis: calc(100% - 2px);
+  max-width: calc(100% - 2px);
+}
+
+.tile-grid .tile:nth-child(1):nth-last-child(2),
+.tile-grid .tile:nth-child(2):nth-last-child(1) { 
+  flex-basis: calc(50% - 2px);
+  max-width: calc(50% - 2px);
 }
 
 .accept-button {
