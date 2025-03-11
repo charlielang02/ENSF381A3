@@ -250,3 +250,8 @@ select {
   font-weight: bold;
 }
 
+.message-box {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
